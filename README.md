@@ -1,2 +1,3 @@
-# crypto-election
-A blockchain based election platform. 
+# Crypto Election
+A blockchain based election platform. Runs on the Ethereum block chain. 
+
