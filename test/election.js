@@ -33,7 +33,7 @@ contract("Election", function (accounts) {
   });
 
   it("candidate ID should be smaller or equal to the candidate count ", function () {
-    const votingAddress = "0x3d6F0464CD9d0e9bbce97015AFda30c537055E8a";
+    const votingAddress = "0xDcCAce15A6602334024c31e750Bbea7127819af5";
     return Election.deployed()
       .then(function (instance) {
         return instance.vote(3, {from : votingAddress});
